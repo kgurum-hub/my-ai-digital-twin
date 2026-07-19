@@ -298,7 +298,7 @@ demo = gr.ChatInterface(fn=respond_ai,
                  title="Karthi's Digital Twin",
                  chatbot=gr.Chatbot(avatar_images = (None,"karthik_twin.jpg")),
                  description="Chat with an AI version of Karthik Gurumurthy. Ask about his experience, projects or just say hi!",
-                 examples="Whats your background?,What kind of projects have you worked on?,do you have ay other interests or hobbies"
+                 examples="What is your professional experience?,What key projects have you contributed to?,What are you passionate about outside of work?"
                  )
 if __name__ == "__main__":
     demo.launch(server_name="0.0.0.0", server_port=10000)
