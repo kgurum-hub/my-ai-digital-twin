@@ -295,9 +295,9 @@ def respond_ai(message,history):
 # Launch Gradio
 #------------------------------------------------
 demo = gr.ChatInterface(fn=respond_ai,
-                 title="Karthi's Digital Twin",
+                 title="Karthik's Digital Twin",
                  chatbot=gr.Chatbot(avatar_images = (None,"karthik_twin.jpg")),
-                 description="Chat with an AI version of Karthik Gurumurthy. Ask about his experience, projects or just say hi!",
+                 description="Chat with an AI version of Karthik. Ask about his experience, projects or just say hi!",
                  examples=["What is your professional experience?","What key projects have you contributed to?","What are you passionate about outside of work?"]
                  )
 if __name__ == "__main__":
