@@ -1,0 +1,5 @@
+openai
+gradio
+langchain_text_splitters
+chromadb
+requests
